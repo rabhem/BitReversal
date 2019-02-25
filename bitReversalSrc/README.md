@@ -1,15 +1,21 @@
-Bit Reversal Exercise 
+Bit Reversal Exercise
 =====================
 
 __Copyright (c) 2019 Rob Hemesley__
 
-Compile and run unit tests by running 'make' from a command line. 
-Tested with gcc version 5.4.0
-Unity unit-test harness is included. 
+Build and run the unit tests by running 'make' from the 'BitReversalSrc'
+directory on a command line. The unit tests will run and will output 
+their results. 
+Tested with gcc version 5.4.0 and Unity unit test harness (which is 
+included). 
 
-The default makefile is written to compile bitrev2.c and can be 
-reworked to compile bitrev1.c or any alternative source file by editing 
-the line that begins with "SRC_FILES1=$(UNITY_ROOT)/src/unity.c src/bitrev2.c "
+By default the makefile will compile the bitrev2.c implementation. 
+Alternative implementations may be compiled by editing the makefile line 
+that begins with 
 
-After compilation, the unit tests will run and the output will be 
-displayed. 
+SRC_FILES1=$(UNITY_ROOT)/src/unity.c src/bitrev2.c 
+
+The alternative bit-reversal implementations are to be found within the 
+'bitReversalSrc/src/' sub-directory. 
+
+The unit tests are to be found in 'bitReversalSrc/test/testBitrev.c'
