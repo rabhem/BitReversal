@@ -15,3 +15,7 @@ that begins with
 
 SRC_FILES1=$(UNITY_ROOT)/src/unity.c src/bitrev2.c 
 
+The alternative bit-reversal implementations are to be found within the 
+'bitReversalSrc/src/' sub-directory. 
+
+The unit tests are to be found in 'bitReversalSrc/test/testBitrev.c'
